@@ -97,7 +97,10 @@
 }
 
 .mt-2 {
-  margin-top: 6em !important;
+  margin-top: 10em !important;
+}
+.mb-1{
+  margin-bottom: 20em !important;
 }
 
 .pos {
@@ -248,10 +251,10 @@ h3 {
   padding: 1em 0;
 }
 
-h3 .line::after {
+.section2 h3::after {
   content: "";
   height: 1px;
-  width: 100px;
+  width: 18%;
   padding: 0.1em;
   background-color: var(--success);
   position: absolute;
@@ -264,12 +267,13 @@ h3 .line::after {
 /* section---3  */
 .section3 h3 {
   padding: 1em 0;
+  font-size: 1.5em;
 }
 
 .section3 h3::after {
   content: "";
   height: 1px;
-  width: 350px;
+  width: 50%;
   padding: 0.1em;
   background-color: var(--success);
   position: absolute;
@@ -325,6 +329,7 @@ h3 .line::after {
   font-size: 2.5em;
   color: var(--licolor);
   margin: 1em auto;
+  font-weight: 900;
 }
 
 .section5 ul {
@@ -333,6 +338,7 @@ h3 .line::after {
 
 .section5 li {
   font-size: 2em;
+  font-weight: 900;
 }
 
 .section5 .btn {
@@ -440,7 +446,7 @@ h3 .line::after {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 70%;
   height: 2px;
   padding: 5px;
   border-radius: 50px;
