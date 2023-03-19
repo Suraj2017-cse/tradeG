@@ -34,7 +34,7 @@
 }
 
 .col {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3rem;
 }
 
@@ -387,12 +387,17 @@ h3 .line::after {
   border-radius: .3em;
   
 }
-
+.card .card-title h6{
+  font-size: .8em;
+}
 .card-title p {
   border: 1px solid var(--dark);
   color: var(--secondary);
   padding: .3em;
   font-size: .7em;
+}
+.card .mentors-item{
+  font-size: .74em;
 }
 
 .card-time {
