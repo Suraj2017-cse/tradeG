@@ -34,7 +34,7 @@
 }
 
 .col {
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 3rem;
 }
 
@@ -385,8 +385,7 @@ h3 .line::after {
 .card {
   padding: .5rem;
   border-radius: .3em;
-  /* width: 360px; */
-  /* padding: 1rem; */
+  
 }
 
 .card-title p {
@@ -443,7 +442,7 @@ h3 .line::after {
 }
 
 .card-footer .btn {
-  padding: .4rem 5rem;
+  padding: .5em 6em !important;
   font-size: .9rem;
   border: none;
   border-radius: 10px;
